@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import PhotoUpload from './components/PhotoUpload';
 
-const App = () => {
+const App: React.FC = () => {
     return (
         <div>
             <h1>Recycle Photo App</h1>
@@ -11,4 +10,4 @@ const App = () => {
     );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
